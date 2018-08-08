@@ -1,0 +1,42 @@
+sudo: false
+dist: trusty
+language: python
+python:
+  - "2.5"
+  - "2.6"
+  - "2.7"
+  - "3.2"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.8"
+  - "3.9"
+  - "2.5-dev"
+  - "2.6-dev"
+  - "2.7-dev"
+  - "3.2-dev"
+  - "3.3-dev"
+  - "3.4-dev"
+  - "3.5-dev"
+  - "3.6-dev"
+  - "3.7-dev"
+  - "3.8-dev"
+  - "3.9-dev"
+  - "nightly"
+  - "pypy2.5"
+  - "pypy2.6"
+  - "pypy2.7"
+  - "pypy3.4"
+  - "pypy3.5"
+  - "pypy3.6"
+  - "pypy3.7"
+  - "pypy3.8"
+  - "pypy3.9"
+  
+  
+script:
+  - "python -V"
+  - "pip --version"
+  - "pip list"
